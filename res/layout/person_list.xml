@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@color/darker_blue">
+    <include layout="@layout/header"/>
+
+    <ListView
+    	android:id="@+id/personList"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:divider="#FFFFFF"
+    	android:background="@color/darker_blue"
+    >
+</ListView>
+    
+    
+    <LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" android:orientation="horizontal">
+	    <EditText android:layout_width="0dip" 
+		    android:layout_height="wrap_content" 
+		    android:layout_weight="1" 
+		    android:inputType="number" 
+		    android:text="@string/save_text" 
+		    android:id="@+id/crnt_rdg"/>
+		    
+		<ImageButton android:id="@+id/imagebutton_save"
+			android:src="@drawable/ic_menu_save"
+	        android:layout_height="fill_parent" 
+	        android:layout_width="wrap_content" 
+	        android:clickable="true"/>
+	</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+		android:background="@color/dark_blue"
+	    android:layout_height="50dip"
+		android:layout_gravity="center"
+	    android:gravity="center" android:orientation="horizontal">
+	    
+		<Button android:id="@+id/prev" android:layout_height="fill_parent" android:layout_marginTop="4dip" android:layout_width="wrap_content" android:layout_gravity="bottom|left" android:text="@string/prevv"/><Button
+			android:id="@+id/back"
+			android:layout_height="fill_parent"
+			android:text="Back"
+			android:layout_marginTop="4dip"
+			android:layout_width="wrap_content" android:layout_gravity="fill_horizontal"/>
+		<Button
+			android:layout_height="fill_parent"
+			android:layout_marginTop="4dip"
+			android:id="@+id/savetofile" android:layout_width="wrap_content" android:text="Save File" android:layout_gravity="fill_horizontal"/>
+		<Button
+			android:id="@+id/next"
+			android:layout_height="fill_parent"
+			android:layout_marginTop="4dip"
+			android:text="Next" android:layout_width="wrap_content" android:layout_gravity="bottom|right"/>
+    </LinearLayout>
+    
+</LinearLayout>

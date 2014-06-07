@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NavNirman Mobile Asset Management</string>
+    <string name="no_filemanager_installed">No compatible file manager found</string>
+    <string name="file_name">File name</string>
+    <string name="prevv">Previous</string>
+    
+    <string name="save_text">Enter current reading</string>  
+    <string name="open_title">Select file to open</string>
+    <string name="open_button">Read   this  file</string>
+    <string name="save_title">Select file to save</string>
+    <string name="save_button">Save above file</string>
+    <string name="pick_directory_title">Select a  folder</string>
+    <string name="pick_directory_button">Use this folder</string>
+
+ 	<string name="hello">              WELCOME TO RELIANCE POWER!</string>
+    <string name="nullstr"></string>
+   
+ 
+    <!-- TestFileManager  -->
+    <string name="file_not_found">File not found !</string>
+	<string name="error_reading_file">Error reading file !</string>
+   
+   <!-- From BP Search -->
+    
+    <string name="app_version">Version 0.3</string>
+    <string name="about_title">Mobile Asset Management System</string>
+    <string name="about_mail">sandugandhi@gmail.com</string>
+    <string name="search_title">Search Customer</string>
+    <string name="list_title">Search Results</string>
+    
+    <string name="TestFileManager"> Test File Manager</string>
+    
+
+</resources>
